@@ -17,7 +17,7 @@ Node.js is installed and ready for development.
 node --version
 ```
 
-**Screenshot:** [Add screenshot of node version command here]
+**Screenshot:** [node-version.png](screenshots/node-version.png)
 
 ---
 
@@ -29,7 +29,7 @@ git --version
 # Output: git version 2.53.0.windows.2
 ```
 
-**Screenshot:** [Git version screenshot - can be taken with `git --version` in terminal]
+**Screenshot:** [git-version.png](screenshots/git-version.png)
 
 ---
 
@@ -42,14 +42,14 @@ VS Code Insider is running with GitHub Copilot extension active and connected.
 - Full IntelliSense and code completion
 - AI-powered code suggestions and explanations
 
-**Screenshot:** [Add screenshot of VS Code Insider window with Copilot enabled]
+**Screenshot:** [vscode-copilot.png](screenshots/vscode-copilot.png)
 
 ---
 
 ### ✅ Claude Desktop with 4 MCP Servers Connected
 Claude Desktop is configured with all required MCP servers for enhanced AI capabilities.
 
-**Screenshot:** [Add screenshot of Claude Desktop showing all 4 MCP servers]
+**Screenshot:** [claude-desktop-mcp.png](screenshots/claude-desktop-mcp.png)
 
 ---
 
