@@ -52,12 +52,6 @@ tmp/
 mcp-servers.log
 mcp-debug.log
 
-# Screenshots (if using local storage before upload)
-screenshots/
-*.png
-*.jpg
-*.jpeg
-
 # Backup files
 *.bak
 *.backup
