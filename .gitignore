@@ -1,0 +1,80 @@
+# Environment variables and credentials
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# API Keys and tokens (never commit these!)
+credentials.json
+secrets.json
+api-keys.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build artifacts
+dist/
+build/
+.next/
+out/
+
+# OS-specific
+Thumbs.db
+.DS_Store
+*.exe
+*.dll
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+temp/
+tmp/
+.cache/
+
+# MCP Server logs
+mcp-servers.log
+mcp-debug.log
+
+# Screenshots (if using local storage before upload)
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Backup files
+*.bak
+*.backup
+~*
+
+# IDE specific files
+.classpath
+.project
+.settings/
+*.iml
+out/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# System files
+.AppleDouble
+.LSOverride
+._*

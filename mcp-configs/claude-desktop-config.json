@@ -1,0 +1,77 @@
+{
+  "mcpServers": {
+    "rolldice": {
+      "command": "node",
+      "args": [
+        "C:\\path\\to\\rolldice-mcp-server\\index.js"
+      ],
+      "env": {
+        "PORT": "3001",
+        "NODE_ENV": "production"
+      },
+      "disabled": false,
+      "description": "Dice rolling utility for randomization and probabilistic scenarios"
+    },
+    "bootcamp-ai-agent": {
+      "command": "node",
+      "args": [
+        "C:\\path\\to\\bootcamp-mcp-server\\index.js"
+      ],
+      "env": {
+        "CURRICULUM_API": "https://bootcamp-api.example.com",
+        "USER_ID": "orquesta-requirements",
+        "COHORT": "week1",
+        "PORT": "3002",
+        "NODE_ENV": "production"
+      },
+      "disabled": false,
+      "description": "Bootcamp curriculum integration and AI Agent for learning support"
+    },
+    "calendar-booking": {
+      "command": "node",
+      "args": [
+        "C:\\path\\to\\calendar-mcp-server\\index.js"
+      ],
+      "env": {
+        "CALENDAR_PROVIDER": "google",
+        "CALENDAR_ID": "your-email@gmail.com",
+        "CALENDAR_API_KEY": "${CALENDAR_API_KEY}",
+        "PORT": "3003",
+        "NODE_ENV": "production"
+      },
+      "disabled": false,
+      "description": "Calendar integration for scheduling and booking management"
+    },
+    "github": {
+      "command": "node",
+      "args": [
+        "C:\\path\\to\\github-mcp-server\\index.js"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}",
+        "GITHUB_OWNER": "jeneya-cabildo",
+        "GITHUB_REPO": "ai-agent-dev-setup-jeneya-cabildo",
+        "PORT": "3004",
+        "NODE_ENV": "production"
+      },
+      "disabled": false,
+      "description": "GitHub repository interaction and version control operations"
+    }
+  },
+  "settings": {
+    "autoConnect": true,
+    "timeout": 30000,
+    "retryAttempts": 3,
+    "retryDelay": 1000
+  },
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "file": "C:\\Users\\USER\\AppData\\Roaming\\Claude\\mcp-servers.log"
+  },
+  "security": {
+    "validateSSL": true,
+    "allowLocalhost": true,
+    "corsEnabled": false
+  }
+}
